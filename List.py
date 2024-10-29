@@ -40,3 +40,16 @@ print(numbers)  # Output: [8, 7, 6, 4, 2]
 
 # Counting occurrences
 print(numbers.count(8))  # Output: 1
+
+
+#EXAMPLE 3
+list = ["apple","banana","grapes"] 
+print(list)
+list.append("cherry")
+print(list)
+list.insert(4,"lichee")
+print(list)
+list.remove("apple")
+print(list)
+list.reverse()
+print(list)
