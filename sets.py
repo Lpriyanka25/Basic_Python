@@ -13,3 +13,7 @@ print("After adding 6:", set1)
 set1.remove(6)   # Raises an error if 6 is not found
 set1.discard(5)  # Does not raise an error if 5 is not found
 print("After removing elements:", set1)
+
+
+union_set = set1.union(set2)
+print("Union:", union_set)
