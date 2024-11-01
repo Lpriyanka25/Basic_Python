@@ -27,6 +27,12 @@ print("Difference:", difference_set)
 symmetric_diff = set1.symmetric_difference(set2)
 print("Symmetric Difference:", symmetric_diff)
 
+# Clearing all elements in a set
+set1.clear()
+print("After clearing set1:", set1)
+
+# Checking if an element is in a set
+print(3 in set2)  # Returns True if 3 is in set2, otherwise False
 
 subset_check = set1.issubset(set2)
 superset_check = set1.issuperset(set2)
