@@ -17,3 +17,18 @@ print("After removing elements:", set1)
 
 union_set = set1.union(set2)
 print("Union:", union_set)
+
+intersection_set = set1.intersection(set2)
+print("Intersection:", intersection_set)
+
+difference_set = set1.difference(set2)
+print("Difference:", difference_set)
+
+symmetric_diff = set1.symmetric_difference(set2)
+print("Symmetric Difference:", symmetric_diff)
+
+
+subset_check = set1.issubset(set2)
+superset_check = set1.issuperset(set2)
+print("Is set1 a subset of set2?", subset_check)
+print("Is set1 a superset of set2?", superset_check
