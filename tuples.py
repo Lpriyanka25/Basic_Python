@@ -31,3 +31,8 @@ print(sample_tuple.count(2))  # Output: 2
 # Find index of an element
 print(sample_tuple.index(3))  # Output: 2
 
+my_dict = {(1, 2): "point A", (3, 4): "point B"}
+print(my_dict[(1, 2)])  # Output: "point A"
+
+coordinates = (10.5, 20.3)
+print("X:", coordinates[0], "Y:", coordinates[1])
