@@ -13,3 +13,11 @@ print("Descending sorted list:", sorted_numbers_desc)
 # Using sort() method
 numbers.sort(reverse=True)
 print("Descending sorted list:", numbers)
+
+numbers = [5, 2, 9, 1, 5, 6]
+sorted_numbers = sorted(numbers)
+print("Ascending sorted list:", sorted_numbers)
+
+numbers = [5, 2, 9, 1, 5, 6]
+numbers.sort()
+print("Ascending sorted list:", numbers)
