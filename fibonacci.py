@@ -1,13 +1,5 @@
 def fibonacci_sequence(n):
-    """
-    Calculate the Fibonacci sequence up to the nth term.
 
-    Args:
-        n (int): Number of terms in the sequence.
-
-    Returns:
-        list: Fibonacci sequence up to the nth term.
-    """
     if n <= 0:
         return []
     elif n == 1:
