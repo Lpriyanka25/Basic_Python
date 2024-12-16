@@ -49,4 +49,18 @@ def place(symbol):
         else:
             print('Invalid entry. Try again.')
     board[row-1][column-1] = symbol
+def play():
+    for turn in range(9):
+        if turn % 2 == 0:
+            print('X turn')
+            place(p1s)
+            if won(p1s):
+                return
+        else:
+            print('O turn')
+            place(p2s)
+            if won(p2s):
+                return
+    print('It\'s a draw!')
 
+play()
